@@ -5,13 +5,13 @@ from pyowm import OWM
 
 from pyowm.utils.config import get_default_config
 
-owm = OWM('e2ca9ad78754497305dfde6271388a60')
+owm = OWM('YOU TOKEN')
 mgr = owm.weather_manager()
 config_dict = get_default_config()
 config_dict['language'] = 'ru'
 
 
-API_TOKEN = '2103674705:AAFbj-5Ty-8yiElQZ1rsIAHx1M4NCDRvuno'
+API_TOKEN = 'YOU TOKEN'
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
